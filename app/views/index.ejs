@@ -1,0 +1,16 @@
+<%- include ('partials/header.ejs') %>
+<%- include ('partials/navigation.ejs') %>
+
+
+<div id="homeContainer">
+<h2>Welcome 👋 to my home page</h2>
+<p id="homePageP">Hello, I'm a student of Centennial College, learning Software Engineering.<br>
+    This is my third semester of this course,
+     so far I find this course pretty much challening definttly there is a lots of new information to learn.<br>
+     Used to be a Fitness couch and Photographer and yes this is a big jump from Fitness to It industry. <br>
+     Good thing is love developing my skills and learning something new <br>
+     Bellow you can find a link if you want to learn more about me 
+     <div id="aboutMeStyle"><a href="/aboutme"class="<% if (title=="aboutme") { %>active<% } %>"> About Me</a></div>
+</p>
+</div>
+ <%- include ('partials/footer.ejs') %>
